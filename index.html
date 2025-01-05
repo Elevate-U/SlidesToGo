@@ -3,28 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SlidesToGo - Free and Premium Templates</title>
+    <title>SlidesToGo - Free & Premium Templates</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to SlidesToGo</h1>
-        <p>Beautiful templates for PowerPoint and Google Slides.</p>
-        <nav>
-            <a href="templates/free.html">Free Templates</a>
-            <a href="templates/premium.html">Premium Templates</a>
-        </nav>
+        <div class="container">
+            <h1>SlidesToGo</h1>
+            <p>Beautiful templates for PowerPoint and Google Slides.</p>
+            <nav>
+                <a href="./templates/free.html" class="nav-link">Free Templates</a>
+                <a href="./templates/premium.html" class="nav-link">Premium Templates</a>
+                <a href="./contact.html" class="nav-link">Contact</a>
+                <input type="text" placeholder="Search templates..." class="search-bar">
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Our Templates</h2>
-            <p>Explore free and premium designs tailored to your needs.</p>
-            <a href="templates/free.html" class="button">Explore Free Templates</a>
-            <a href="templates/premium.html" class="button">Browse Premium Templates</a>
+        <section class="hero">
+            <div class="container">
+                <h2>Explore Stunning Templates</h2>
+                <p>Make your presentations stand out with designs tailored for professionals, students, and creators.</p>
+                <div class="button-group">
+                    <a href="./templates/free.html" class="button">Explore Free Templates</a>
+                    <a href="./templates/premium.html" class="button button-primary">Browse Premium Templates</a>
+                </div>
+            </div>
+        </section>
+        <section class="ready-to-use">
+            <div class="container">
+                <h2>Ready-to-Use Slide Templates</h2>
+                <div class="template-grid">
+                    <div class="template-item">
+                        <img src="assets/images/template5-preview.png" alt="Template 5">
+                        <a href="https://gumroad.com/your-premium-template-link" target="_blank">Purchase Template 5</a>
+                    </div>
+                    <div class="template-item">
+                        <img src="assets/images/template6-preview.png" alt="Template 6">
+                        <a href="https://gumroad.com/your-premium-template-link" target="_blank">Purchase Template 6</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 SlidesToGo. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 SlidesToGo. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
